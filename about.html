@@ -51,7 +51,7 @@
                         <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i class="fab fa-youtube fw-normal"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4 text-center text-lg-end">
+                <!-- <div class="col-lg-4 text-center text-lg-end">
                     <div class="d-inline-flex align-items-center" style="height: 45px;">
                         <a href="#"><small class="me-3 text-light"><i class="fa fa-user me-2"></i>Register</small></a>
                         <a href="#"><small class="me-3 text-light"><i class="fa fa-sign-in-alt me-2"></i>Login</small></a>
@@ -66,7 +66,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <!-- Topbar End -->
@@ -86,7 +86,7 @@
                         <a href="index.html" class="nav-item nav-link">Home</a>
                         <a href="about.html" class="nav-item nav-link active">About</a>
                         <a href="services.html" class="nav-item nav-link">Services</a>
-                        <a href="packages.html" class="nav-item nav-link">Packages</a>
+                        <!-- <a href="packages.html" class="nav-item nav-link">Packages</a> -->
                         <a href="blog.html" class="nav-item nav-link">Blog</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
@@ -126,12 +126,20 @@
     <div class="container py-5">
         <div class="row g-5 align-items-center">
             <!-- Image Section -->
-            <div class="col-lg-5">
-                <div class="h-100" style="border: 50px solid; border-color: transparent #203864 transparent #203864;">
-                    <img src="img/about-img.jpg" class="img-fluid w-100 h-100" alt="About Best Explorer Tours">
-                </div>
-            </div>
-
+<div class="col-lg-5">
+    <div class="image-container position-relative h-100">
+        <!-- Main Image -->
+        <img src="img/destination-5.jpg" class="img-fluid w-100 h-100 rounded-lg" alt="About Best Explorer Tours" style="object-fit: cover;">
+        
+        <!-- Decorative Border -->
+        <div class="border-overlay" style="border: 20px solid rgba(32, 56, 100, 0.1); position: absolute; top: -20px; left: -20px; right: -20px; bottom: -20px; z-index: -1; border-radius: 20px;"></div>
+        
+        <!-- Optional: Add a Floating Icon or Text -->
+        <div class="floating-icon position-absolute" style="top: 20px; right: 20px;">
+            <i class="fas fa-camera fa-2x text-white bg-primary p-3 rounded-circle"></i>
+        </div>
+    </div>
+</div>
             <!-- Content Section -->
             <div class="col-lg-7" style="background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url(img/about-bg.jpg);">
                 <h5 class="section-about-title pe-3">About Us</h5>
@@ -175,126 +183,7 @@
 </div>
 <!-- About End -->
 
-        <!-- Travel Guide Start -->
-<div class="container-fluid guide py-5">
-    <div class="container py-5">
-        <div class="mx-auto text-center mb-5" style="max-width: 900px;">
-            <h5 class="section-title px-3">Meet Our Experts</h5>
-            <h1 class="mb-0">Our Travel Guides</h1>
-            <p class="mb-0">Our team of experienced travel guides is here to make your journey unforgettable. With years of expertise and a passion for exploration, they’ll ensure you have the best travel experience.</p>
-        </div>
-        <div class="row g-4">
-            <!-- Guide 1 -->
-            <div class="col-md-6 col-lg-3">
-                <div class="guide-item">
-                    <div class="guide-img">
-                        <div class="guide-img-efects">
-                            <img src="img/guide-1.jpg" class="img-fluid w-100 rounded-top" alt="Sarah Johnson">
-                        </div>
-                        <div class="guide-icon rounded-pill p-2">
-                            <a class="btn btn-square btn-primary rounded-circle mx-1" href="https://facebook.com/sarahjohnson"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square btn-primary rounded-circle mx-1" href="https://twitter.com/sarahjohnson"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square btn-primary rounded-circle mx-1" href="https://instagram.com/sarahjohnson"><i class="fab fa-instagram"></i></a>
-                            <a class="btn btn-square btn-primary rounded-circle mx-1" href="https://linkedin.com/in/sarahjohnson"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="guide-title text-center rounded-bottom p-4">
-                        <div class="guide-title-inner">
-                            <h4 class="mt-3">Mr Patrick</h4>
-                            <p class="mb-0">Adventure Specialist</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Guide 2 -->
-            <div class="col-md-6 col-lg-3">
-                <div class="guide-item">
-                    <div class="guide-img">
-                        <div class="guide-img-efects">
-                            <img src="img/guide-2.jpg" class="img-fluid w-100 rounded-top" alt="Michael Brown">
-                        </div>
-                        <div class="guide-icon rounded-pill p-2">
-                            <a class="btn btn-square btn-primary rounded-circle mx-1" href="https://facebook.com/michaelbrown"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square btn-primary rounded-circle mx-1" href="https://twitter.com/michaelbrown"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square btn-primary rounded-circle mx-1" href="https://instagram.com/michaelbrown"><i class="fab fa-instagram"></i></a>
-                            <a class="btn btn-square btn-primary rounded-circle mx-1" href="https://linkedin.com/in/michaelbrown"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="guide-title text-center rounded-bottom p-4">
-                        <div class="guide-title-inner">
-                            <h4 class="mt-3">Michael Brown</h4>
-                            <p class="mb-0">Cultural Explorer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Guide 3 -->
-            <div class="col-md-6 col-lg-3">
-                <div class="guide-item">
-                    <div class="guide-img">
-                        <div class="guide-img-efects">
-                            <img src="img/guide-3.jpg" class="img-fluid w-100 rounded-top" alt="Emily Davis">
-                        </div>
-                        <div class="guide-icon rounded-pill p-2">
-                            <a class="btn btn-square btn-primary rounded-circle mx-1" href="https://facebook.com/emilydavis"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square btn-primary rounded-circle mx-1" href="https://twitter.com/emilydavis"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square btn-primary rounded-circle mx-1" href="https://instagram.com/emilydavis"><i class="fab fa-instagram"></i></a>
-                            <a class="btn btn-square btn-primary rounded-circle mx-1" href="https://linkedin.com/in/emilydavis"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="guide-title text-center rounded-bottom p-4">
-                        <div class="guide-title-inner">
-                            <h4 class="mt-3">Emily Davis</h4>
-                            <p class="mb-0">Wildlife Enthusiast</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Guide 4 -->
-            <div class="col-md-6 col-lg-3">
-                <div class="guide-item">
-                    <div class="guide-img">
-                        <div class="guide-img-efects">
-                            <img src="img/guide-4.jpg" class="img-fluid w-100 rounded-top" alt="David Wilson">
-                        </div>
-                        <div class="guide-icon rounded-pill p-2">
-                            <a class="btn btn-square btn-primary rounded-circle mx-1" href="https://facebook.com/davidwilson"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square btn-primary rounded-circle mx-1" href="https://twitter.com/davidwilson"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square btn-primary rounded-circle mx-1" href="https://instagram.com/davidwilson"><i class="fab fa-instagram"></i></a>
-                            <a class="btn btn-square btn-primary rounded-circle mx-1" href="https://linkedin.com/in/davidwilson"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="guide-title text-center rounded-bottom p-4">
-                        <div class="guide-title-inner">
-                            <h4 class="mt-3">David Wilson</h4>
-                            <p class="mb-0">History Buff</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Travel Guide End -->
-
-         <!-- Subscribe Start -->
-<div class="container-fluid subscribe py-5">
-    <div class="container text-center py-5">
-        <div class="mx-auto text-center" style="max-width: 900px;">
-            <h5 class="subscribe-title px-3">Join Our Community</h5>
-            <h1 class="text-white mb-4">Subscribe to Our Newsletter</h1>
-            <p class="text-white mb-5">Stay updated with the latest travel deals, destination guides, and exclusive offers from BestExplorerTours. Let’s make your next adventure unforgettable!</p>
-            <div class="position-relative mx-auto">
-                <input class="form-control border-primary rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                <button type="button" class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 px-4 mt-2 me-2">Subscribe</button>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Subscribe End -->
+       
 
 
         <!-- Footer Start -->
